@@ -1,0 +1,25 @@
+generation,workload,line,name,type,cpuPlatform,cpuFreqGhzSla,cpuFreqGhz,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,lbs,lbsGb,nets,ipPerNet
+"current","Compute Intensive","HighCPU","C4","c4.8xlarge","Intel Xeon E5-2666 v3","strict",2.9,100,36,60,"strict",10000,"strict",4000,0,0,1,1
+"current","Compute Intensive","HighCPU","C4","c4.xlarge","Intel Xeon E5-2666 v3","strict",2.9,100,4,7.5,"upto",1000,"strict",750,0,0,1,1
+"current","Compute Intensive","HighCPU","C4","c4.large","Intel Xeon E5-2666 v3","strict",2.9,100,2,3.75,"upto",100,"strict",500,0,0,1,1
+"current","Compute Intensive","HighCPU","C4","c4.4xlarge","Intel Xeon E5-2666 v3","strict",2.9,100,16,30,"upto",1000,"strict",2000,0,0,1,1
+"current","Compute Intensive","HighCPU","C4","c4.2xlarge","Intel Xeon E5-2666 v3","strict",2.9,100,8,15,"upto",1000,"strict",1000,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.4xlarge","Intel Xeon Platinum","strict",3,100,16,32,"upto",10000,"strict",2250,1,400,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.xlarge","Intel Xeon Platinum","strict",3,100,4,8,"upto",10000,"upto",2250,1,100,1,1
+"current","Compute Intensive","HighCPU","C5","c5.2xlarge","Intel Xeon Platinum","strict",3,100,8,16,"upto",10000,"upto",2250,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5.9xlarge","Intel Xeon Platinum","strict",3,100,36,72,"strict",10000,"strict",4500,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.large","Intel Xeon Platinum","strict",3,100,2,4,"upto",10000,"upto",2250,1,50,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.9xlarge","Intel Xeon Platinum","strict",3,100,32,72,"strict",10000,"strict",4500,1,900,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.18xlarge","Intel Xeon Platinum","strict",3,100,72,144,"strict",25000,"strict",9000,2,900,1,1
+"current","Compute Intensive","HighCPU","C5","c5.4xlarge","Intel Xeon Platinum","strict",3,100,16,32,"upto",10000,"strict",2250,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5.xlarge","Intel Xeon Platinum","strict",3,100,4,8,"upto",10000,"upto",2250,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5.18xlarge","Intel Xeon Platinum","strict",3,100,72,144,"strict",25000,"strict",9000,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5.large","Intel Xeon Platinum","strict",3,100,2,4,"upto",10000,"upto",2250,0,0,1,1
+"current","Compute Intensive","HighCPU","C5","c5d.2xlarge","Intel Xeon Platinum","strict",3,100,8,16,"upto",10000,"upto",2250,1,200,1,1
+"current","Universal","bursting","T2","t2.xlarge","Intel Xeon *","upto",3,22,4,16,"upto",1000,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.2xlarge","Intel Xeon *","upto",3,16,8,32,"upto",1000,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.medium","Intel Xeon *","upto",3.3,20,2,4,"upto",100,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.large","Intel Xeon *","upto",3.3,30,2,8,"upto",100,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.micro","Intel Xeon *","upto",3.3,10,1,1,"upto",100,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.small","Intel Xeon *","upto",3.3,20,1,2,"upto",100,"upto",50,0,0,1,1
+"current","Universal","bursting","T2","t2.nano","Intel Xeon *","upto",3.3,5,1,0.5,"upto",10,"upto",50,0,0,1,1

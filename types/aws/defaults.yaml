@@ -1,0 +1,16 @@
+defaults:
+ share: 100
+ cpuPlatform: "Intel Xeon"
+ cpuFreqGhz: 2.9
+ cpuFreqGhzSla: strict
+ netMbpsSla: upto
+ netMbps: 1000
+ nbsMbsSla: upto
+ nbsMbs: 50
+ bursting: false
+ billedBurst: false
+ lbs: 0
+ lbsGb: 0
+ lbsType: None
+ nets: 1
+ ipPerNet: 1

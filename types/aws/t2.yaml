@@ -1,0 +1,21 @@
+name: T2
+line: bursting
+workload: Universal
+generation: current
+bursting: true
+comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
+defaults:
+ cpuPlatform: "Intel Xeon *"
+ cpuFreqGhzSla: upto
+ cpuFreqGhz: 3.3
+ netMbpsSla: upto
+ netMbps: 100
+ billedBurst: false
+presetTypes:
+ t2.nano:    { cores: 1, share: 5,  ram: 0.5, netMbps: 10 }
+ t2.micro:   { cores: 1, share: 10, ram: 1 }
+ t2.small:   { cores: 1, share: 20, ram: 2 }
+ t2.medium:  { cores: 2, share: 20, ram: 4 }
+ t2.large:   { cores: 2, share: 30, ram: 8 }
+ t2.xlarge:  { cores: 4, share: 22, ram: 16, netMbps: 1000, cpuFreqGhz: 3.0 }
+ t2.2xlarge: { cores: 8, share: 16, ram: 32, netMbps: 1000, cpuFreqGhz: 3.0 }

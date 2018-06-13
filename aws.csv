@@ -1,3 +1,4 @@
+type,cores,ram,nets,ipsPerNet,lbs,lbsSize,nbsMbs,netMbs
 "t2.nano",1,0.5,2,2,,,0,"Low"
 "t2.micro",1,1,2,2,,,0,"Low to Moderate"
 "t2.small",1,2,2,4,,,0,"Low to Moderate"
@@ -75,7 +76,7 @@
 "i3.4xlarge",16,122,8,30,2,1900,3500,"Up to 10 Gigabit"
 "i3.8xlarge",32,244,8,30,4,1900,7000,"10 Gigabit"
 "i3.16xlarge",64,488,15,50,8,1900,14000,"25 Gigabit"
-"i3.metal","N/A",512,15,50,8,1900,10000,"25 Gigabit"
+"i3.metal","72",512,15,50,8,1900,10000,"25 Gigabit"
 "d2.xlarge",4,30.5,4,15,3,2000,750,"Moderate"
 "d2.2xlarge",8,61,4,15,6,2000,1000,"High"
 "d2.4xlarge",16,122,8,30,12,2000,2000,"High"
