@@ -1,0 +1,14 @@
+name: F1
+line: Compute
+workload: Accelerated Compute
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ fpgaPlatform:
+ - id: Xilinx-Virtex-UltraScale-VU9P-FPGA
+ nbsMbsSla: strict
+ lbsType: ssd
+presetTypes:
+ f1.2xlarge:  { cores: 8,  ram: 122, fpga: 1, lbs: 1, lbsGb: 470, nbsMbs: 1700,  nets: 4, ipsPerNet: 15, netMbpsSla: upto,   netMbps: 10000 }
+ f1.16xlarge: { cores: 64, ram: 976, fpga: 8, lbs: 4, lbsGb: 940, nbsMbs: 14000, nets: 8, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }

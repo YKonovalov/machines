@@ -1,0 +1,24 @@
+name: M5
+line: Standard
+workload: Universal
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-Platinum-8175-2.5
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: upto
+ nbsMbs: 2120
+presetTypes:
+ m5.large:     { cores: 2,  ram: 8,   nets: 3,  ipsPerNet: 10 }
+ m5.xlarge:    { cores: 4,  ram: 16,  nets: 4,  ipsPerNet: 15 }
+ m5.2xlarge:   { cores: 8,  ram: 32,  nets: 4,  ipsPerNet: 15 }
+ m5.4xlarge:   { cores: 16, ram: 64,  nets: 8,  ipsPerNet: 30, nbsMbsSla: strict }
+ m5.12xlarge:  { cores: 48, ram: 192, nets: 8,  ipsPerNet: 30, nbsMbsSla: strict, nbsMbs: 5000,  netMbpsSla: strict }
+ m5.24xlarge:  { cores: 96, ram: 384, nets: 15, ipsPerNet: 50, nbsMbsSla: strict, nbsMbs: 10000, netMbpsSla: strict, netMbps: 25000 }
+ m5d.large:    { cores: 2,  ram: 8,   nets: 3,  ipsPerNet: 10, lbs: 1, lbsGb: 75,  lbsType: nvme }
+ m5d.xlarge:   { cores: 4,  ram: 16,  nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 150, lbsType: nvme }
+ m5d.2xlarge:  { cores: 8,  ram: 32,  nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 300, lbsType: nvme }
+ m5d.4xlarge:  { cores: 16, ram: 64,  nets: 8,  ipsPerNet: 30, lbs: 2, lbsGb: 300, lbsType: nvme, nbsMbsSla: strict }
+ m5d.12xlarge: { cores: 48, ram: 192, nets: 8,  ipsPerNet: 30, lbs: 2, lbsGb: 900, lbsType: nvme, nbsMbsSla: strict, nbsMbs: 5000,  netMbpsSla: strict }
+ m5d.24xlarge: { cores: 96, ram: 384, nets: 15, ipsPerNet: 50, lbs: 4, lbsGb: 900, lbsType: nvme, nbsMbsSla: strict, nbsMbs: 10000, netMbpsSla: strict, netMbps: 25000 }

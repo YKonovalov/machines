@@ -4,23 +4,23 @@ workload: Compute Intensive
 generation: current
 defaults:
  share: 100
- cpuPlatform: "Intel Xeon Platinum"
- cpuFreqGhz: 3.0
- cpuFreqGhzSla: strict
+ cpuPlatform:
+ - model: "Intel Xeon® Platinum"
+   Ghz: 3.0
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: upto
  nbsMbs: 2250
 presetTypes:
- c5.large:     { cores: 2,  ram: 4 }
- c5.xlarge:    { cores: 4,  ram: 8 }
- c5.2xlarge:   { cores: 8,  ram: 16 }
- c5.4xlarge:   { cores: 16, ram: 32,   nbsMbsSla: strict }
- c5.9xlarge:   { cores: 36, ram: 72,   nbsMbs: 4500,  nbsMbsSla: strict, netMbpsSla: strict }
- c5.18xlarge:  { cores: 72, ram: 144,  nbsMbs: 9000,  nbsMbsSla: strict, netMbps: 25000, netMbpsSla: strict }
- c5d.large:    { cores: 2,  ram: 4,    lbs: 1, lbsGb: 50,  lbsType: nvme }
- c5d.xlarge:   { cores: 4,  ram: 8,    lbs: 1, lbsGb: 100, lbsType: nvme }
- c5d.2xlarge:  { cores: 8,  ram: 16,   lbs: 1, lbsGb: 200, lbsType: nvme }
- c5d.4xlarge:  { cores: 16, ram: 32,   lbs: 1, lbsGb: 400, lbsType: nvme, nbsMbsSla: strict }
- c5d.9xlarge:  { cores: 32, ram: 72,   lbs: 1, lbsGb: 900, lbsType: nvme, nbsMbs: 4500, nbsMbsSla: strict, netMbpsSla: strict }
- c5d.18xlarge: { cores: 72, ram: 144,  lbs: 2, lbsGb: 900, lbsType: nvme, nbsMbs: 9000, nbsMbsSla: strict, netMbps: 25000, netMbpsSla: strict }
+ c5.large:     { cores: 2,  ram: 4,   nets: 3,  ipsPerNet: 10 }
+ c5.xlarge:    { cores: 4,  ram: 8,   nets: 4,  ipsPerNet: 15 }
+ c5.2xlarge:   { cores: 8,  ram: 16,  nets: 4,  ipsPerNet: 15 }
+ c5.4xlarge:   { cores: 16, ram: 32,  nets: 8,  ipsPerNet: 30, nbsMbsSla: strict }
+ c5.9xlarge:   { cores: 36, ram: 72,  nets: 8,  ipsPerNet: 30, nbsMbs: 4500,  nbsMbsSla: strict, netMbpsSla: strict }
+ c5.18xlarge:  { cores: 72, ram: 144, nets: 15, ipsPerNet: 50, nbsMbs: 9000,  nbsMbsSla: strict, netMbps: 25000, netMbpsSla: strict }
+ c5d.large:    { cores: 2,  ram: 4,   nets: 3,  ipsPerNet: 10, lbs: 1, lbsGb: 50,  lbsType: nvme }
+ c5d.xlarge:   { cores: 4,  ram: 8,   nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 100, lbsType: nvme }
+ c5d.2xlarge:  { cores: 8,  ram: 16,  nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 200, lbsType: nvme }
+ c5d.4xlarge:  { cores: 16, ram: 32,  nets: 8,  ipsPerNet: 30, lbs: 1, lbsGb: 400, lbsType: nvme, nbsMbsSla: strict }
+ c5d.9xlarge:  { cores: 32, ram: 72,  nets: 8,  ipsPerNet: 30, lbs: 1, lbsGb: 900, lbsType: nvme, nbsMbs: 4500, nbsMbsSla: strict, netMbpsSla: strict }
+ c5d.18xlarge: { cores: 72, ram: 144, nets: 15, ipsPerNet: 50, lbs: 2, lbsGb: 900, lbsType: nvme, nbsMbs: 9000, nbsMbsSla: strict, netMbps: 25000, netMbpsSla: strict }

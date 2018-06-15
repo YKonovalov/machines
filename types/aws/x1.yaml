@@ -1,0 +1,14 @@
+name: X1
+line: HighMem
+workload: Memory Intensive
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E7-8880-v3-2.3
+ nets: 8
+ ipsPerNet: 30
+ netMbpsSla: strict
+ lbsType: ssd
+presetTypes:
+ x1.16xlarge: { cores: 64,  ram: 976,  lbs: 1, lbsGb: 1920, nbsMbs: 7000,  netMbps: 10000 }
+ x1.32xlarge: { cores: 128, ram: 1952, lbs: 2, lbsGb: 1920, nbsMbs: 14000, netMbps: 25000 }

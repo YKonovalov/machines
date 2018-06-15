@@ -1,0 +1,16 @@
+name: P3
+line: Compute
+workload: Accelerated Compute
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ gpuPlatform:
+ - id: NVIDIA-Tesla-V100
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+presetTypes:
+ p3.2xlarge:  { cores: 8,  ram: 61,  gpu: 1, gram: 16,                 nbsMbs: 1750,  nets: 4,  ipsPerNet: 15 }
+ p3.8xlarge:  { cores: 32, ram: 244, gpu: 4, gram: 64,  glink: NVLink, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30 }
+ p3.16xlarge: { cores: 64, ram: 488, gpu: 8, gram: 128, glink: NVLink, nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }

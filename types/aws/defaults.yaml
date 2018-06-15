@@ -1,8 +1,6 @@
 defaults:
  share: 100
- cpuPlatform: "Intel Xeon"
- cpuFreqGhz: 2.9
- cpuFreqGhzSla: strict
+ cpuPlatform: [1, 2, 3, 4, 5]
  netMbpsSla: upto
  netMbps: 1000
  nbsMbsSla: upto
@@ -14,3 +12,57 @@ defaults:
  lbsType: None
  nets: 1
  ipPerNet: 1
+cpuModels:
+- model: "Intel Xeon® Platinum"
+  Ghz: 3.0
+  id: Intel-Xeon-Platinum
+  numericId: 120
+- model: "Intel Xeon® Platinum 8175"
+  Ghz: 2.5
+  id: Intel-Xeon-Platinum-8175-2.5
+  numericId: 130
+- model: "Intel Xeon® E7-8880 v3"
+  Ghz: 2.3
+  codename: Haswell
+  id: Intel-Xeon-E7-8880-v3-2.3
+  numericId: 320
+- model: "Intel Xeon® E5-2676 v3"
+  Ghz: 2.4
+  id: Intel-Xeon-E5-2676-v3-2.4
+  numericId: 330
+- model: "Intel Xeon® E5-2666 v3"
+  Ghz: 2.9
+  id: Intel-Xeon-E5-2666-v3-2.9
+  numericId: 340
+- model: "Intel Xeon® E5-2686 v4"
+  Ghz: 2.3
+  maxGhz: 2.7
+  codename: Broadwell
+  id: Intel-Xeon-E5-2686-v4-2.3
+  numericId: 420
+gpuModels:
+- model: NVIDIA Tesla M60
+  id: NVIDIA-Tesla-M60
+  ram: 8
+  cores: 2048
+  tensors: 0
+  numericId: 10
+- model: NVIDIA K80
+  id: NVIDIA-K80
+  ram: 12
+  cores: 2496
+  tensors: 0
+  numericId: 20
+- model: NVIDIA Tesla V100
+  id: NVIDIA-Tesla-V100
+  ram: 16
+  cores: 5120
+  tensors: 640
+  numericId: 30
+fpgaModels:
+- model: Xilinx Virtex UltraScale+ VU9P FPGA
+  id: Xilinx-Virtex-UltraScale-VU9P-FPGA
+  ram: 64
+  dsp: 6800
+  elements: 2.5
+  numericId: 10

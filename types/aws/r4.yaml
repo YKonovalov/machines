@@ -1,0 +1,17 @@
+name: R4
+line: HighMem
+workload: Memory Intensive
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+presetTypes:
+ r4.large:    { cores: 2,  ram: 15.25, nbsMbs: 425,   nets: 3,  ipsPerNet: 10 }
+ r4.xlarge:   { cores: 4,  ram: 30.5,  nbsMbs: 850,   nets: 4,  ipsPerNet: 15 }
+ r4.2xlarge:  { cores: 8,  ram: 61,    nbsMbs: 1700,  nets: 4,  ipsPerNet: 15 }
+ r4.4xlarge:  { cores: 16, ram: 122,   nbsMbs: 3500,  nets: 8,  ipsPerNet: 30 }
+ r4.6xlarge:  { cores: 32, ram: 244,   nbsMbs: 7000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
+ r4.16xlarge: { cores: 64, ram: 488,   nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }

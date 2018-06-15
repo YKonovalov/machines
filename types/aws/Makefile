@@ -13,9 +13,9 @@ defaults.json:
 	python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout)' < defaults.yaml > defaults.json
 
 aws.csv: defaults.json aws.json
-	echo generation,workload,line,name,type,cpuPlatform,cpuFreqGhzSla,cpuFreqGhz,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,lbs,lbsGb,nets,ipPerNet >aws.csv
+	echo generation,workload,line,name,type,cpuPlatform,cpuFreqGhzSla,cpuFreqGhz,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,nets,ipPerNet,lbs,lbsGb,lbsType >aws.csv
 	jq -r --slurpfile g defaults.json \
-	 '.[]|.defaults as $$d|{name,line,workload,generation} as $$n|.presetTypes|to_entries[]|.key as $$t|.value|$$g[].defaults+$$d+.+$$n+(.type=$$t)|[.generation,.workload,.line,.name,.type,.cpuPlatform,.cpuFreqGhzSla,.cpuFreqGhz,.share,.cores,.ram,.netMbpsSla,.netMbps,.nbsMbsSla,.nbsMbs,.lbs,.lbsGb,.nets,.ipPerNet]|@csv' aws.json >>aws.csv
+	 '.[]|.defaults as $$d|{name,line,workload,generation} as $$n|.presetTypes|to_entries[]|.key as $$t|.value|$$g[].defaults+$$d+.+$$n+(.type=$$t)|[.generation,.workload,.line,.name,.type,.cpuPlatform,.cpuFreqGhzSla,.cpuFreqGhz,.share,.cores,.ram,.netMbpsSla,.netMbps,.nbsMbsSla,.nbsMbs,.nets,.ipPerNet,.lbs,.lbsGb,.lbsType]|@csv' aws.json >>aws.csv
 #	jq '.[]|.defaults as $d|{name,line,workload,generation} as $n|.presetTypes|with_entries(.value|= $d + $n + .)' aws.json
 #	jq '.[]|.defaults as $d|{name,line,workload,generation} as $n|.presetTypes|with_entries(.key as $k|.value|= $d + $n + . + (.type=$k))|.[]' aws.json 
 #	jq -r '.[]|.defaults as $d|{name,line,workload,generation} as $n|.presetTypes|to_entries[]|.key as $t|.value|$d+.+$n+(.type=$t)|[.generation,.workload,.line,.name,.type]|@tsv' aws.json

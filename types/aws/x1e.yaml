@@ -1,0 +1,18 @@
+name: X1e
+line: HighMem
+workload: Memory Intensive
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E7-8880-v3-2.3
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+ lbsType: ssd
+presetTypes:
+ x1e.xlarge:   { cores: 4,   ram: 122,  lbs: 1, lbsGb: 120,  nbsMbs: 500,   nets: 3, ipsPerNet: 10 }
+ x1e.2xlarge:  { cores: 8,   ram: 244,  lbs: 1, lbsGb: 240,  nbsMbs: 1000,  nets: 4, ipsPerNet: 15 }
+ x1e.4xlarge:  { cores: 16,  ram: 488,  lbs: 1, lbsGb: 480,  nbsMbs: 1750,  nets: 4, ipsPerNet: 15 }
+ x1e.8xlarge:  { cores: 32,  ram: 976,  lbs: 1, lbsGb: 960,  nbsMbs: 3500,  nets: 4, ipsPerNet: 15 }
+ x1e.16xlarge: { cores: 64,  ram: 1952, lbs: 1, lbsGb: 1920, nbsMbs: 7000,  nets: 8, ipsPerNet: 30, netMbpsSla: strict }
+ x1e.32xlarge: { cores: 128, ram: 3904, lbs: 2, lbsGb: 1920, nbsMbs: 14000, nets: 8, ipsPerNet: 30, netMbpsSla: strict, netMbps: 25000 }

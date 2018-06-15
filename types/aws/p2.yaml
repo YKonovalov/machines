@@ -1,0 +1,15 @@
+name: P2
+line: Compute
+workload: Accelerated Compute
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ gpuPlatform:
+ - id: NVIDIA-K80
+ netMbps: 10000
+ nbsMbsSla: strict
+presetTypes:
+ p2.xlarge:   { cores: 4,  ram: 61,  gpu: 1,  gram: 12,  nbsMbs: 750,   nets: 4,  ipsPerNet: 15, netMbpsSla: upto}
+ p2.8xlarge:  { cores: 32, ram: 488, gpu: 8,  gram: 96,  nbsMbs: 5000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
+ p2.16xlarge: { cores: 64, ram: 732, gpu: 16, gram: 192, nbsMbs: 10000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }

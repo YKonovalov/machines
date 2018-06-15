@@ -4,17 +4,16 @@ workload: Compute Intensive
 generation: current
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:
- share: 100
- cpuPlatform: "Intel Xeon E5-2666 v3"
- cpuFreqGhz: 2.9
- cpuFreqGhzSla: strict
+ cpuPlatform:
+ - model: "Intel Xeon® E5-2666 v3"
+   Ghz: 2.9
  netMbpsSla: upto
  netMbps: 1000
  nbsMbsSla: strict
  nbsMbs: 500
 presetTypes:
- c4.large:     { cores: 2,  ram: 3.75, nbsMbs: 500, netMbps: 100 }
- c4.xlarge:    { cores: 4,  ram: 7.5,  nbsMbs: 750, netMbps: 1000 }
- c4.2xlarge:   { cores: 8,  ram: 15,   nbsMbs: 1000, netMbps: 1000 }
- c4.4xlarge:   { cores: 16, ram: 30,   nbsMbs: 2000, netMbps: 1000 }
- c4.8xlarge:   { cores: 36, ram: 60,   nbsMbs: 4000, netMbps: 10000, netMbpsSla: strict }
+ c4.large:     { cores: 2,  ram: 3.75, nbsMbs: 500,  nets: 3, ipsPerNet: 10, netMbps: 100 }
+ c4.xlarge:    { cores: 4,  ram: 7.5,  nbsMbs: 750,  nets: 4, ipsPerNet: 15, netMbps: 1000 }
+ c4.2xlarge:   { cores: 8,  ram: 15,   nbsMbs: 1000, nets: 4, ipsPerNet: 15, netMbps: 1000 }
+ c4.4xlarge:   { cores: 16, ram: 30,   nbsMbs: 2000, nets: 8, ipsPerNet: 30, netMbps: 1000 }
+ c4.8xlarge:   { cores: 36, ram: 60,   nbsMbs: 4000, nets: 8, ipsPerNet: 30, netMbps: 10000, netMbpsSla: strict }

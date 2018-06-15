@@ -1,0 +1,15 @@
+name: G3
+line: Compute
+workload: Accelerated Compute
+generation: current
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ gpuPlatform:
+ - id: NVIDIA-Tesla-M60
+ netMbps: 10000
+ nbsMbsSla: strict
+presetTypes:
+ g3.4xlarge:  { cores: 16, ram: 122, gpu: 1, gram: 8,  nbsMbs: 3500,  nets: 8,  ipsPerNet: 30, netMbpsSla: upto}
+ g3.8xlarge:  { cores: 32, ram: 244, gpu: 2, gram: 16, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
+ g3.16xlarge: { cores: 64, ram: 488, gpu: 4, gram: 32, nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }
