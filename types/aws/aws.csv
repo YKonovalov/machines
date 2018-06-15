@@ -1,4 +1,4 @@
-generation,line,name,type,cpuPlatform,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,nets,ipPerNet,lbs,lbsGb,lbsType
+generation,line,name,type,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,nets,ipPerNet,lbs,lbsGb,lbsType
 "current","Compute Optimized","C4","c4.8xlarge",100,36,60,"strict",10000,"strict",4000,8,1,0,0,"None"
 "current","Compute Optimized","C4","c4.xlarge",100,4,7.5,"upto",1000,"strict",750,4,1,0,0,"None"
 "current","Compute Optimized","C4","c4.large",100,2,3.75,"upto",100,"strict",500,3,1,0,0,"None"
