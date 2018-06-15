@@ -1,0 +1,20 @@
+name: H1
+line: Storage
+generation: current
+workload:
+- id: MapReduce
+- id: Distributed Filesystem
+- id: BigData Clusters
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+ lbsType: hdd
+ lbsGb: 2000
+presetTypes:
+ h1.2xlarge:  { cores: 8,  ram: 32,  lbs: 1, nbsMbs: 1750,  nets: 4,  ipsPerNet: 15 }
+ h1.4xlarge:  { cores: 16, ram: 64,  lbs: 2, nbsMbs: 3500,  nets: 8,  ipsPerNet: 30 }
+ h1.8xlarge:  { cores: 32, ram: 128, lbs: 4, nbsMbs: 70000, nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
+ h1.16xlarge: { cores: 64, ram: 256, lbs: 8, nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }

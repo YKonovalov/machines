@@ -28,6 +28,7 @@ cpuModels:
   numericId: 320
 - model: "Intel Xeon® E5-2676 v3"
   Ghz: 2.4
+  codename: Haswell
   id: Intel-Xeon-E5-2676-v3-2.4
   numericId: 330
 - model: "Intel Xeon® E5-2666 v3"

@@ -1,0 +1,21 @@
+name: D2
+line: Storage
+generation: current
+workload:
+- id: MapReduce
+- id: MPP
+- id: Network Filesystems
+- id: Log Processing
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2676-v3-2.4
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+ lbsType: hdd
+ lbsGb: 2000
+presetTypes:
+ d2.xlarge:   { cores: 4,  ram: 30.5,  lbs: 3,  nbsMbs: 750,   nets: 4,  ipsPerNet: 15, netMbps: 5000 }
+ d2.2xlarge:  { cores: 8,  ram: 61,    lbs: 6,  nbsMbs: 1000,  nets: 4,  ipsPerNet: 15 }
+ d2.4xlarge:  { cores: 16, ram: 122,   lbs: 12, nbsMbs: 2000,  nets: 8,  ipsPerNet: 30 }
+ d2.8xlarge:  { cores: 36, ram: 244,   lbs: 24, nbsMbs: 4000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }

@@ -1,0 +1,23 @@
+name: I3
+line: Storage
+generation: current
+workload:
+- id: Database
+- id: NoSQL
+- id: InRAM Database
+- id: Data Analytics
+defaults:
+ cpuPlatform:
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ netMbpsSla: upto
+ netMbps: 10000
+ nbsMbsSla: strict
+ lbsType: nvme
+presetTypes:
+ i3.large:    { cores: 2,  ram: 15.25, lbs: 1, lbsGb: 475,  nbsMbs: 425,   nets: 3,  ipsPerNet: 10 }
+ i3.xlarge:   { cores: 4,  ram: 30.5,  lbs: 1, lbsGb: 950,  nbsMbs: 850,   nets: 4,  ipsPerNet: 15 }
+ i3.2xlarge:  { cores: 8,  ram: 61,    lbs: 1, lbsGb: 1900, nbsMbs: 1700,  nets: 4,  ipsPerNet: 15 }
+ i3.4xlarge:  { cores: 16, ram: 122,   lbs: 2, lbsGb: 1900, nbsMbs: 3500,  nets: 8,  ipsPerNet: 30 }
+ i3.8xlarge:  { cores: 32, ram: 244,   lbs: 4, lbsGb: 1900, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
+ i3.16xlarge: { cores: 64, ram: 488,   lbs: 8, lbsGb: 1900, nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }
+ i3.metal:    { cores: 72, ram: 512,   lbs: 8, lbsGb: 1900, nbsMbs: 10000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }
