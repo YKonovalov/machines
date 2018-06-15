@@ -1,7 +1,8 @@
 name: F1
 line: Compute
-workload: Accelerated Compute
 generation: current
+workload:
+- id: Accelerated Compute
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

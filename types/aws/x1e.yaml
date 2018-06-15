@@ -1,7 +1,8 @@
 name: X1e
-line: HighMem
-workload: Memory Intensive
+line: Memory Intensive
 generation: current
+workload:
+- id: Memory Intensive
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E7-8880-v3-2.3

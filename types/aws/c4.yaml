@@ -1,7 +1,13 @@
 name: C4
-line: HighCPU
-workload: Compute Intensive
+line: Compute Optimized
 generation: current
+workload:
+- id: High Performance front-end platforms
+- id: Web-servers
+- id: Scientific and engineering modelling
+- id: Batch processing
+- id: Distributed analytics
+- id: Video encoding
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:
  cpuPlatform:

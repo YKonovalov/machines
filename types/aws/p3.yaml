@@ -1,6 +1,7 @@
 name: P3
-line: Compute
-workload: Accelerated Compute
+line: Accelerated Compute
+workload:
+- id: Accelerated Compute
 generation: current
 defaults:
  cpuPlatform:

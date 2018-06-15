@@ -1,6 +1,7 @@
 name: M5
-line: Standard
-workload: Universal
+line: Universal
+workload:
+- id: Universal
 generation: current
 defaults:
  cpuPlatform:

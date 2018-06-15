@@ -1,7 +1,14 @@
 name: C5
-line: HighCPU
-workload: Compute Intensive
+line: Compute Optimized
 generation: current
+workload:
+- id: High Performance Wed-services
+- id: Scientific modelling
+- id: Batch processing
+- id: HPC
+- id: Distributed analytics
+- id: Video encoding
+- id: Machine learning data processing
 defaults:
  share: 100
  cpuPlatform:
