@@ -15,29 +15,49 @@ defaults:
 cpuModels:
 - model: "Intel Xeon® Platinum"
   Ghz: 3.0
+  bust: false
+  bustGhz: 3.0
+  bustMaxGhz: 3.0
+  codename: Skylake
   id: Intel-Xeon-Platinum
   numericId: 120
 - model: "Intel Xeon® Platinum 8175"
   Ghz: 2.5
+  bust: false
+  bustGhz: 2.5
+  bustMaxGhz: 2.5
+  codename: Skylake
   id: Intel-Xeon-Platinum-8175-2.5
   numericId: 130
 - model: "Intel Xeon® E7-8880 v3"
   Ghz: 2.3
+  bust: true
+  bustGhz: 3.1
+  bustMaxGhz: 3.1
   codename: Haswell
   id: Intel-Xeon-E7-8880-v3-2.3
   numericId: 320
 - model: "Intel Xeon® E5-2676 v3"
   Ghz: 2.4
+  bust: false
+  bustGhz: 2.4
+  bustMaxGhz: 2.4
   codename: Haswell
   id: Intel-Xeon-E5-2676-v3-2.4
   numericId: 330
 - model: "Intel Xeon® E5-2666 v3"
   Ghz: 2.9
+  bust: true
+  bustGhz: 3.2
+  bustMaxGhz: 3.5
+  codename: Haswell
   id: Intel-Xeon-E5-2666-v3-2.9
   numericId: 340
 - model: "Intel Xeon® E5-2686 v4"
   Ghz: 2.3
-  maxGhz: 2.7
+  bust: true
+  bustGhz: 2.7
+  bustMaxGhz: 3.0
   codename: Broadwell
   id: Intel-Xeon-E5-2686-v4-2.3
   numericId: 420

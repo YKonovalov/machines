@@ -3,18 +3,18 @@ all: aws.csv
 
 aws.json:
 	echo '[]' > aws.json
-	for i in `ls *.yaml|grep -v defaults`; do \
+	for i in `ls *.yaml|grep -v global`; do \
 	  A=`python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout)' < $$i`; \
 	  A=`jq --argjson a "$$A" '[.[],$$a]' aws.json`; \
 	  echo "$$A" > aws.json; \
 	done
 
-defaults.json:
-	python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout)' < defaults.yaml > defaults.json
+global.json:
+	python -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin), sys.stdout)' < global.yaml > global.json
 
-aws.csv: defaults.json aws.json
+aws.csv: global.json aws.json
 	echo generation,line,name,type,share,cores,ram,netMbpsSla,netMbps,nbsMbsSla,nbsMbs,nets,ipsPerNet,lbs,lbsGb,lbsType >aws.csv
-	jq -r --slurpfile g defaults.json \
+	jq -r --slurpfile g global.json \
 	 '.[]|.defaults as $$d|{name,line,generation} as $$n|.presetTypes|to_entries[]|.key as $$t|.value|$$g[].defaults+$$d+.+$$n+(.type=$$t)|[.generation,.line,.name,.type,.share,.cores,.ram,.netMbpsSla,.netMbps,.nbsMbsSla,.nbsMbs,.nets,.ipsPerNet,.lbs,.lbsGb,.lbsType]|@csv' aws.json >>aws.csv
 #	jq '.[]|.defaults as $d|{name,line,workload,generation} as $n|.presetTypes|with_entries(.value|= $d + $n + .)' aws.json
 #	jq '.[]|.defaults as $d|{name,line,workload,generation} as $n|.presetTypes|with_entries(.key as $k|.value|= $d + $n + . + (.type=$k))|.[]' aws.json 
@@ -23,4 +23,4 @@ aws.csv: defaults.json aws.json
 #	jq -r '.[]|del(.pricing)|select(.generation=="current")|[.instance_type,.vCPU,.memory,.vpc.max_enis,.vpc.ips_per_eni,.storage.devices,.storage.size,.ebs_max_bandwidth,.network_performance]|@csv' instances.json >>aws.csv
 
 clean:
-	rm -f defaults.json aws.json aws.csv
+	rm -f global.json aws.json aws.csv
