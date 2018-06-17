@@ -24,5 +24,7 @@ presetTypes:
  t2.small:   { cores: 1, share: 20, ram: 2,   nets: 2,  ipsPerNet: 4 }
  t2.medium:  { cores: 2, share: 20, ram: 4,   nets: 3,  ipsPerNet: 6 }
  t2.large:   { cores: 2, share: 30, ram: 8,   nets: 3,  ipsPerNet: 12 }
- t2.xlarge:  { cores: 4, share: 22, ram: 16,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ MaxGhz: 3.0 ] }
- t2.2xlarge: { cores: 8, share: 16, ram: 32,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ MaxGhz: 3.0 ] }
+ t2.xlarge:  { cores: 4, share: 22, ram: 16,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ id: Intel-Xeon-Platinum, id: Intel-Xeon-Platinum-8175-2.5, id: Intel-Xeon-E7-8880-v3-2.3, id: Intel-Xeon-E5-2676-v3-2.4, id: Intel-Xeon-E5-2686-v4-2.3 ] }
+ t2.2xlarge: { cores: 8, share: 16, ram: 32,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ id: Intel-Xeon-Platinum, id: Intel-Xeon-Platinum-8175-2.5, id: Intel-Xeon-E7-8880-v3-2.3, id: Intel-Xeon-E5-2676-v3-2.4, id: Intel-Xeon-E5-2686-v4-2.3 ] }
+# t2.xlarge:  { cores: 4, share: 22, ram: 16,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ MaxGhz: 3.0 ] }
+# t2.2xlarge: { cores: 8, share: 16, ram: 32,  nets: 3,  ipsPerNet: 15, netMbps: 1000, cpuPlatform: [ MaxGhz: 3.0 ] }

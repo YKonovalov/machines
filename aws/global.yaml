@@ -8,9 +8,9 @@ defaults:
  - id: Intel-Xeon-E5-2666-v3-2.9
  - id: Intel-Xeon-E5-2686-v4-2.3
  gpuPlatform:
- - id: None
+ - id:
  fpgaPlatform:
- - id: None
+ - id:
  netMbpsSla: upto
  netMbps: 1000
  nbsMbsSla: upto
@@ -91,7 +91,7 @@ gpuModels:
   tensors: 640
   numericId: 30
 - model: None
-  id: None
+  id:
   ram: 0
   cores: 0
   tensors: 0
@@ -104,7 +104,7 @@ fpgaModels:
   elements: 2.5
   numericId: 10
 - model: None
-  id: None
+  id:
   ram: 0
   dsp: 0
   elements: 0
