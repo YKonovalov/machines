@@ -1,8 +1,24 @@
 name: X1e
-line: Memory Intensive
+line: Memory Optimized
 generation: current
 workload:
-- id: Memory Intensive
+- id: high performance databases
+- id: in-memory databases (e.g. SAP HANA)
+- id: memory intensive applications
+- id: next-generation business software
+certification:
+- id: Business Suite S/4HANA
+  vendor: SAP
+  on: x1e.32xlarge
+- id: Business Suite on HANA (SoH)
+  vendor: SAP
+  on: x1e.32xlarge
+- id: Business Warehouse on HANA (BW)
+  vendor: SAP
+  on: x1e.32xlarge
+- id: Data Mart Solutions on HANA
+  vendor: SAP
+  on: x1e.32xlarge
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E7-8880-v3-2.3

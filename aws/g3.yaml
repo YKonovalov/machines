@@ -1,8 +1,12 @@
 name: G3
-line: Compute
+line: Accelerated Computing
 generation: current
 workload:
-- id: Accelerated Compute
+- id: 3D visualizations
+- id: graphics-intensive remote workstation
+- id: 3D rendering
+- id: application streaming
+- id: video encoding
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

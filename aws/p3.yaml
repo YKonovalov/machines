@@ -1,7 +1,15 @@
 name: P3
-line: Accelerated Compute
+line: Accelerated Computing
 workload:
-- id: Accelerated Compute
+- id: machine learning
+- id: deep learning
+- id: high performance computing
+- id: computational fluid dynamics
+- id: computational finance
+- id: seismic analysis
+- id: speech recognition
+- id: autonomous vehicles
+- id: drug discovery
 generation: current
 defaults:
  cpuPlatform:

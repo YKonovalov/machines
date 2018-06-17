@@ -1,7 +1,12 @@
 name: M5
-line: Universal
+line: General Purpose
 workload:
-- id: Universal
+- id: small and mid-size databases
+- id: data processing tasks that require additional memory
+- id: caching fleets
+- id: running backend servers for SAP, Microsoft SharePoint
+- id: cluster computing
+- id: enterprise applications
 generation: current
 defaults:
  cpuPlatform:

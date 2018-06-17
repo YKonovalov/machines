@@ -2,12 +2,15 @@ name: C4
 line: Compute Optimized
 generation: current
 workload:
-- id: High Performance front-end platforms
-- id: Web-servers
-- id: Scientific and engineering modelling
-- id: Batch processing
-- id: Distributed analytics
-- id: Video encoding
+- id: high performance front-end fleets
+- id: web-servers
+- id: batch processing
+- id: distributed analytics
+- id: high performance science applications
+- id: high performance engineering applications
+- id: ad serving
+- id: MMO gaming
+- id: video encoding
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:
  cpuPlatform:

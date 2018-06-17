@@ -1,11 +1,17 @@
 name: D2
-line: Storage
+line: Storage Optimized
 generation: current
 workload:
-- id: MapReduce
-- id: MPP
-- id: Network Filesystems
-- id: Log Processing
+- id: Massively Parallel Processing (MPP) data warehousing
+- id: MapReduce distributed computing
+- id: distributed file systems
+- id: network file systems
+- id: log processing
+- id: data processing
+application:
+- id: Hadoop
+  vendor: Apache
+  workload: MapReduce distributed computing
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2676-v3-2.4

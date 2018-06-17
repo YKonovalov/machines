@@ -1,8 +1,20 @@
 name: R4
-line: Memory Intensive
+line: Memory Optimized
 generation: current
 workload:
-- id: Memory Intensive
+- id: high performance databases
+- id: data mining
+- id: data analysis
+- id: in-memory databases
+- id: distributed web scale in-memory caches
+- id: real-time processing of unstructured big data
+application:
+- id: Hadoop
+  vendor: Apache
+  workload: real-time processing of unstructured big data
+- id: Spark
+  vendor: Apache
+  workload: real-time processing of unstructured big data
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

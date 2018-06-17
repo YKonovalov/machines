@@ -1,8 +1,29 @@
 name: X1
-line: Memory Intensive
+line: Memory Optimized
 generation: current
 workload:
-- id: Memory Intensive
+- id: in-memory databases
+- id: big data processing engines
+- id: high performance computing (HPC)
+application:
+- id: HANA
+  vendor: SAP
+  workload: in-memory databases
+- id: Spark
+  vendor: Apache
+  workload: big data processing engines
+- id: Presto
+  vendor: Apache
+  workload: big data processing engines
+certification:
+- id: Business Suite S/4HANA
+  vendor: SAP
+- id: Business Suite on HANA (SoH)
+  vendor: SAP
+- id: Business Warehouse on HANA (BW)
+  vendor: SAP
+- id: Data Mart Solutions on HANA
+  vendor: SAP
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E7-8880-v3-2.3

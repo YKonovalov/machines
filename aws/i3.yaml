@@ -1,11 +1,29 @@
 name: I3
-line: Storage
+line: Storage Optimized
 generation: current
 workload:
-- id: Database
-- id: NoSQL
-- id: InRAM Database
-- id: Data Analytics
+- id: NoSQL databases
+- id: in-memory databases
+- id: scale-out transactional databases
+- id: data warehousing
+- id: distributed search engines
+- id: analytics
+application:
+- id: Cassandra
+  vendor: Apache
+  workload: NoSQL databases
+- id: MongoDB
+  vendor: MongoDB Inc
+  workload: NoSQL databases
+- id: Redis
+  vendor: Redis Labs
+  workload: NoSQL databases
+- id: Aerospike
+  vendor: Aerospike Inc
+  workload: in-memory databases
+- id: Elasticsearch
+  vendor: Elasticsearch BV
+  workload: distributed search engines
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

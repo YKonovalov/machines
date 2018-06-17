@@ -2,13 +2,16 @@ name: C5
 line: Compute Optimized
 generation: current
 workload:
-- id: High Performance Wed-services
-- id: Scientific modelling
-- id: Batch processing
-- id: HPC
-- id: Distributed analytics
-- id: Video encoding
-- id: Machine learning data processing
+- id: high performance web servers
+- id: scientific modelling
+- id: batch processing
+- id: distributed analytics
+- id: high-performance computing (HPC)
+- id: machine learning inference
+- id: deep learning inference
+- id: ad serving
+- id: highly scalable multiplayer gaming
+- id: video encoding
 defaults:
  share: 100
  cpuPlatform:

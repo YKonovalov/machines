@@ -1,14 +1,14 @@
 name: T2
-line: Universal
+line: General Purpose
 workload:
-- id: Burstable
-- id: Web-sites
-- id: Software development
-- id: Software build farms
-- id: Software testing
-- id: Software repositories
-- id: Micro Services
-- id: Business applications
+- id: websites
+- id: web applications
+- id: development environments
+- id: build servers
+- id: code repositories
+- id: micro services
+- id: test and staging environments
+- id: line of business applications
 generation: current
 bursting: true
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"

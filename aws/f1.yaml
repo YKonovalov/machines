@@ -1,8 +1,12 @@
 name: F1
-line: Compute
+line: Accelerated Computing
 generation: current
 workload:
-- id: Accelerated Compute
+- id: genomics research
+- id: financial analytics
+- id: real-time video processing
+- id: big data search and analysis
+- id: security
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

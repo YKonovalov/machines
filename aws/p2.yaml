@@ -1,7 +1,14 @@
 name: P2
-line: Accelerated Compute
+line: Accelerated Computing
 workload:
-- id: Accelerated Compute
+- id: machine learning
+- id: high performance databases
+- id: computational fluid dynamics
+- id: computational finance
+- id: seismic analysis
+- id: molecular modeling
+- id: genomics
+- id: rendering
 generation: current
 defaults:
  cpuPlatform:
