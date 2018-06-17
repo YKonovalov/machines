@@ -1,6 +1,16 @@
 defaults:
  share: 100
- cpuPlatform: [1, 2, 3, 4, 5]
+ cpuPlatform:
+ - id: Intel-Xeon-Platinum
+ - id: Intel-Xeon-Platinum-8175-2.5
+ - id: Intel-Xeon-E7-8880-v3-2.3
+ - id: Intel-Xeon-E5-2676-v3-2.4
+ - id: Intel-Xeon-E5-2666-v3-2.9
+ - id: Intel-Xeon-E5-2686-v4-2.3
+ gpuPlatform:
+ - id: None
+ fpgaPlatform:
+ - id: None
  netMbpsSla: upto
  netMbps: 1000
  nbsMbsSla: upto
@@ -80,6 +90,12 @@ gpuModels:
   cores: 5120
   tensors: 640
   numericId: 30
+- model: None
+  id: None
+  ram: 0
+  cores: 0
+  tensors: 0
+  numericId: 0
 fpgaModels:
 - model: Xilinx Virtex UltraScale+ VU9P FPGA
   id: Xilinx-Virtex-UltraScale-VU9P-FPGA
@@ -87,3 +103,9 @@ fpgaModels:
   dsp: 6800
   elements: 2.5
   numericId: 10
+- model: None
+  id: None
+  ram: 0
+  dsp: 0
+  elements: 0
+  numericId: 0

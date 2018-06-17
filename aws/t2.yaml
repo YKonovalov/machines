@@ -13,8 +13,8 @@ generation: current
 bursting: true
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:
- cpuPlatform:
- - MaxGhz: 3.3
+# cpuPlatform:
+# - MaxGhz: 3.3
  netMbpsSla: upto
  netMbps: 100
  billedBurst: false

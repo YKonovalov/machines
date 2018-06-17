@@ -14,6 +14,7 @@ global.json:
 
 aws.csv: global.json aws.json
 	jq -r --from-file aws.jq --slurpfile g global.json aws.json >aws.csv
+#	jq -r --slurpfile g global.json '.[]|.defaults.cpuPlatform|= (.[]|.id as $i| [. + ($g[].cpuModels[]|select(.id == $i))])' aws.json
 
 clean:
 	rm -f global.json aws.json aws.csv
