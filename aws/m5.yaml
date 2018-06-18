@@ -11,6 +11,9 @@ generation: current
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-Platinum-8175-2.5
+ netPlatform:
+ - id: vif
+ - id: ena
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: upto

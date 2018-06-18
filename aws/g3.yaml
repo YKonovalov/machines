@@ -10,6 +10,9 @@ workload:
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3
+ netPlatform:
+ - id: vif
+ - id: ena
  gpuPlatform:
  - id: NVIDIA-Tesla-M60
  netMbps: 10000

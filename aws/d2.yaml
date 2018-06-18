@@ -15,6 +15,9 @@ application:
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2676-v3-2.4
+ netPlatform:
+ - id: vif
+ - id: ixgbevf
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: strict

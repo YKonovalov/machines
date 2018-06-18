@@ -27,6 +27,9 @@ certification:
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E7-8880-v3-2.3
+ netPlatform:
+ - id: vif
+ - id: ena
  nets: 8
  ipsPerNet: 30
  netMbpsSla: strict

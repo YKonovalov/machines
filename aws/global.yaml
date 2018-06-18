@@ -1,5 +1,9 @@
 defaults:
  share: 100
+ arch:
+ - id: x86_64
+ hypervisor:
+ - id: hvm
  cpuPlatform:
  - id: Intel-Xeon-Platinum
  - id: Intel-Xeon-Platinum-8175-2.5
@@ -7,6 +11,8 @@ defaults:
  - id: Intel-Xeon-E5-2676-v3-2.4
  - id: Intel-Xeon-E5-2666-v3-2.9
  - id: Intel-Xeon-E5-2686-v4-2.3
+ netPlatform:
+ - id: vif
  gpuPlatform:
  - id:
  fpgaPlatform:
@@ -22,6 +28,23 @@ defaults:
  lbsType: None
  nets: 1
  ipPerNet: 1
+
+archModels:
+- model: x86_64
+  description: AMD64/EM64T
+  id: x86_64
+- model: x86
+  description: Intel 32-bit 80386
+  id: x86
+
+hypervisorModels:
+- model: Nitro
+  id: kvm
+- model: Nitro Metal
+  id: metal
+- model: XEN
+  id: hvm
+
 cpuModels:
 - model: "Intel Xeon® Platinum"
   Ghz: 3.0
@@ -71,6 +94,15 @@ cpuModels:
   codename: Broadwell
   id: Intel-Xeon-E5-2686-v4-2.3
   numericId: 420
+
+netModels:
+- model: Elastic Network Adapter (ENA)
+  id: ena
+- model: Intel® 82599g Virtual Function Interface
+  id: ixgbevf
+- model: XEN net
+  id: vif
+
 gpuModels:
 - model: NVIDIA Tesla M60
   id: NVIDIA-Tesla-M60
@@ -96,6 +128,7 @@ gpuModels:
   cores: 0
   tensors: 0
   numericId: 0
+
 fpgaModels:
 - model: Xilinx Virtex UltraScale+ VU9P FPGA
   id: Xilinx-Virtex-UltraScale-VU9P-FPGA

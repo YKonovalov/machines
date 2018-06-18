@@ -15,6 +15,9 @@ comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2666-v3-2.9
+ netPlatform:
+ - id: vif
+ - id: ixgbevf
  netMbpsSla: upto
  netMbps: 1000
  nbsMbsSla: strict
