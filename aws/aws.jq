@@ -1,7 +1,7 @@
 [
  "generation", "line", "name",
  "type", "share", "cores", "ram",
- "cpu_id", "cpu_codename", "cpu_Ghz", "cpu_bustGhz", "cpu_bustMaxGhz", "cpu_numericId",
+ "cpu_id", "cpu_codename", "cpu_Ghz", "cpu_turboGhz", "cpu_turboMaxGhz", "cpu_numericId",
  "gpu_id", "gpu_cores", "gpu_ram", "gpu_tensors", "gpu_numericId",
  "fpga_id", "fpga_ram", "fpga_elements", "fpga_dsp", "fpga_numericId",
  "net_id", "net_model",

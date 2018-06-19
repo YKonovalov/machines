@@ -49,10 +49,10 @@ hypervisorModels:
 cpuModels:
 - model: "Intel Xeon® Platinum"
   Ghz: 3.0
-  turbo: false
   AVX: true
   AVX2: true
   AVX-512: true
+  turbo: false
   turboGhz: 3.0
   turboMaxGhz: 3.0
   codename: Skylake
@@ -60,10 +60,10 @@ cpuModels:
   numericId: 120
 - model: "Intel Xeon® Platinum 8175"
   Ghz: 2.5
-  turbo: false
   AVX: true
   AVX2: true
   AVX-512: false
+  turbo: false
   turboGhz: 2.5
   turboMaxGhz: 2.5
   codename: Skylake
@@ -71,10 +71,10 @@ cpuModels:
   numericId: 130
 - model: "Intel Xeon® E7-8880 v3"
   Ghz: 2.3
-  turbo: true
   AVX: true
   AVX2: true
   AVX-512: false
+  turbo: true
   turboGhz: 3.1
   turboMaxGhz: 3.1
   codename: Haswell
@@ -82,21 +82,21 @@ cpuModels:
   numericId: 320
 - model: "Intel Xeon® E5-2676 v3"
   Ghz: 2.4
-  turbo: false
   AVX: true
   AVX2: true
   AVX-512: false
-  bustGhz: 2.4
-  bustMaxGhz: 2.4
+  turbo: false
+  turboGhz: 2.4
+  turboMaxGhz: 2.4
   codename: Haswell
   id: Intel-Xeon-E5-2676-v3-2.4
   numericId: 330
 - model: "Intel Xeon® E5-2666 v3"
   Ghz: 2.9
-  turbo: true
   AVX: true
   AVX2: true
   AVX-512: false
+  turbo: true
   turboGhz: 3.2
   turboMaxGhz: 3.5
   codename: Haswell
@@ -104,10 +104,10 @@ cpuModels:
   numericId: 340
 - model: "Intel Xeon® E5-2686 v4"
   Ghz: 2.3
-  turbo: true
   AVX: true
   AVX2: true
   AVX-512: false
+  turbo: true
   turboGhz: 2.7
   turboMaxGhz: 3.0
   codename: Broadwell
