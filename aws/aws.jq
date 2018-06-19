@@ -1,6 +1,6 @@
 [
- "generation", "line", "name",
- "type", "share", "cores", "ram",
+ "name", "type", "generation", "line", "workload_id",
+ "share", "cores", "ram",
  "cpu_id", "cpu_codename", "cpu_Ghz", "cpu_turboGhz", "cpu_turboMaxGhz", "cpu_numericId",
  "gpu_id", "gpu_cores", "gpu_ram", "gpu_tensors", "gpu_numericId",
  "fpga_id", "fpga_ram", "fpga_elements", "fpga_dsp", "fpga_numericId",
@@ -12,7 +12,7 @@
 ($h | @csv),
  (
   .[]|.defaults as $d |
-  {name,line,generation} as $n |
+  {name,line,generation,workload} as $n |
 
   .presetTypes|to_entries[]
    | .key as $t
@@ -21,6 +21,7 @@
    | (.gpuPlatform[]|.id as $gi| . + ($g[].gpuModels[]|select(.id == $gi))|with_entries(.key |= "gpu_" + .)) as $gpu
    | (.fpgaPlatform[]|.id as $fi| . + ($g[].fpgaModels[]|select(.id == $fi))|with_entries(.key |= "fpga_" + .)) as $fpga
    | (.netPlatform[]|.id as $ni| . + ($g[].netModels[]|select(.id == $ni))|with_entries(.key |= "net_" + .)) as $net
-   | [ . + $cpu + $gpu + $fpga + $net ]
+   | (.workload[]|with_entries(.key |= "workload_" + .)) as $workload
+   | [ . + $cpu + $gpu + $fpga + $net + $workload ]
    | (.[] | [.[$h[]]] | @csv)
  )
