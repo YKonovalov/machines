@@ -1,14 +1,14 @@
 "generation","line","name","type","share","cores","ram","cpu_id","cpu_codename","cpu_Ghz","cpu_bustGhz","cpu_bustMaxGhz","cpu_numericId","gpu_id","gpu_cores","gpu_ram","gpu_tensors","gpu_numericId","fpga_id","fpga_ram","fpga_elements","fpga_dsp","fpga_numericId","net_id","net_model","netMbpsSla","netMbps","nets","ipsPerNet","nbsMbsSla","nbsMbs","nbsInterface","lbs","lbsGb","lbsType"
-"current","Compute Optimized","C4","c4.8xlarge",100,36,60,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",4000,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.8xlarge",100,36,60,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","strict",10000,8,30,"strict",4000,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.xlarge",100,4,7.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,4,15,"strict",750,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.xlarge",100,4,7.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,4,15,"strict",750,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.large",100,2,3.75,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,10,"strict",500,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.large",100,2,3.75,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",100,3,10,"strict",500,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.4xlarge",100,16,30,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.4xlarge",100,16,30,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.2xlarge",100,8,15,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,4,15,"strict",1000,"nvme",0,0,"None"
-"current","Compute Optimized","C4","c4.2xlarge",100,8,15,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,4,15,"strict",1000,"nvme",0,0,"None"
+"current","Compute Optimized","C4","c4.8xlarge",100,36,60,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",4000,"nvme",0,0,
+"current","Compute Optimized","C4","c4.8xlarge",100,36,60,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","strict",10000,8,30,"strict",4000,"nvme",0,0,
+"current","Compute Optimized","C4","c4.xlarge",100,4,7.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,4,15,"strict",750,"nvme",0,0,
+"current","Compute Optimized","C4","c4.xlarge",100,4,7.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,4,15,"strict",750,"nvme",0,0,
+"current","Compute Optimized","C4","c4.large",100,2,3.75,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,10,"strict",500,"nvme",0,0,
+"current","Compute Optimized","C4","c4.large",100,2,3.75,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",100,3,10,"strict",500,"nvme",0,0,
+"current","Compute Optimized","C4","c4.4xlarge",100,16,30,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,8,30,"strict",2000,"nvme",0,0,
+"current","Compute Optimized","C4","c4.4xlarge",100,16,30,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,8,30,"strict",2000,"nvme",0,0,
+"current","Compute Optimized","C4","c4.2xlarge",100,8,15,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,4,15,"strict",1000,"nvme",0,0,
+"current","Compute Optimized","C4","c4.2xlarge",100,8,15,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,4,15,"strict",1000,"nvme",0,0,
 "current","Storage Optimized","D2","d2.xlarge",100,4,30.5,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",5000,4,15,"strict",750,"nvme",3,2000,"hdd"
 "current","Storage Optimized","D2","d2.xlarge",100,4,30.5,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",5000,4,15,"strict",750,"nvme",3,2000,"hdd"
 "current","Storage Optimized","D2","d2.2xlarge",100,8,61,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"nvme",6,2000,"hdd"
@@ -21,12 +21,12 @@
 "current","Accelerated Computing","F1","f1.2xlarge",100,8,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,"Xilinx-Virtex-UltraScale-VU9P-FPGA",64,2.5,6800,10,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",1700,"xen",1,470,"ssd"
 "current","Accelerated Computing","F1","f1.16xlarge",100,64,976,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,"Xilinx-Virtex-UltraScale-VU9P-FPGA",64,2.5,6800,10,"vif","XEN net","strict",25000,8,50,"strict",14000,"xen",4,940,"ssd"
 "current","Accelerated Computing","F1","f1.16xlarge",100,64,976,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,"Xilinx-Virtex-UltraScale-VU9P-FPGA",64,2.5,6800,10,"ena","Elastic Network Adapter (ENA)","strict",25000,8,50,"strict",14000,"xen",4,940,"ssd"
-"current","Accelerated Computing","G3","g3.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",3500,"nvme",0,0,"None"
-"current","Accelerated Computing","G3","g3.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",3500,"nvme",0,0,"None"
-"current","Accelerated Computing","G3","g3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",7000,"nvme",0,0,"None"
-"current","Accelerated Computing","G3","g3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",7000,"nvme",0,0,"None"
-"current","Accelerated Computing","G3","g3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"nvme",0,0,"None"
-"current","Accelerated Computing","G3","g3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"nvme",0,0,"None"
+"current","Accelerated Computing","G3","g3.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",3500,"nvme",0,0,
+"current","Accelerated Computing","G3","g3.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",3500,"nvme",0,0,
+"current","Accelerated Computing","G3","g3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",7000,"nvme",0,0,
+"current","Accelerated Computing","G3","g3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",7000,"nvme",0,0,
+"current","Accelerated Computing","G3","g3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"nvme",0,0,
+"current","Accelerated Computing","G3","g3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-M60",2048,8,0,10,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"nvme",0,0,
 "current","Storage Optimized","H1","h1.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",3500,"xen",2,2000,"hdd"
 "current","Storage Optimized","H1","h1.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",3500,"xen",2,2000,"hdd"
 "current","Storage Optimized","H1","h1.16xlarge",100,64,256,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"xen",8,2000,"hdd"
@@ -49,114 +49,114 @@
 "current","Storage Optimized","I3","i3.metal",100,72,512,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"xen",8,1900,"nvme"
 "current","Storage Optimized","I3","i3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",7000,"xen",4,1900,"nvme"
 "current","Storage Optimized","I3","i3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",7000,"xen",4,1900,"nvme"
-"current","General Purpose","M4","m4.16xlarge",100,96,384,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,8,30,"strict",10000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.16xlarge",100,96,384,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,8,30,"strict",10000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,2,10,"strict",450,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,2,10,"strict",450,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,2,10,"strict",450,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,2,10,"strict",450,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,8,30,"strict",2000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",1000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",1000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.10xlarge",100,48,192,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",4000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.10xlarge",100,48,192,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","strict",10000,8,30,"strict",4000,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
-"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
+"current","General Purpose","M4","m4.16xlarge",100,96,384,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,8,30,"strict",10000,"nvme",0,0,
+"current","General Purpose","M4","m4.16xlarge",100,96,384,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,8,30,"strict",10000,"nvme",0,0,
+"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,2,10,"strict",450,"nvme",0,0,
+"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,2,10,"strict",450,"nvme",0,0,
+"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,2,10,"strict",450,"nvme",0,0,
+"current","General Purpose","M4","m4.large",100,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",1000,2,10,"strict",450,"nvme",0,0,
+"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2000,"nvme",0,0,
+"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,8,30,"strict",2000,"nvme",0,0,
+"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2000,"nvme",0,0,
+"current","General Purpose","M4","m4.4xlarge",100,16,64,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,8,30,"strict",2000,"nvme",0,0,
+"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"nvme",0,0,
+"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",1000,"nvme",0,0,
+"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"nvme",0,0,
+"current","General Purpose","M4","m4.2xlarge",100,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",1000,"nvme",0,0,
+"current","General Purpose","M4","m4.10xlarge",100,48,192,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",4000,"nvme",0,0,
+"current","General Purpose","M4","m4.10xlarge",100,48,192,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","strict",10000,8,30,"strict",4000,"nvme",0,0,
+"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,
+"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",750,"nvme",0,0,
+"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,
+"current","General Purpose","M4","m4.xlarge",100,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"ixgbevf","Intel® 82599g Virtual Function Interface","upto",10000,4,15,"strict",750,"nvme",0,0,
 "current","General Purpose","M5","m5d.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"upto",2120,"nvme",1,75,"nvme"
 "current","General Purpose","M5","m5d.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,3,10,"upto",2120,"nvme",1,75,"nvme"
-"current","General Purpose","M5","m5.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"upto",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,3,10,"upto",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",5000,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",5000,"nvme",0,0,"None"
+"current","General Purpose","M5","m5.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"upto",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.large",100,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,3,10,"upto",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",5000,"nvme",0,0,
+"current","General Purpose","M5","m5.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",5000,"nvme",0,0,
 "current","General Purpose","M5","m5d.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2120,"nvme",2,300,"nvme"
 "current","General Purpose","M5","m5d.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",2120,"nvme",2,300,"nvme"
-"current","General Purpose","M5","m5.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",0,0,"None"
+"current","General Purpose","M5","m5.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.4xlarge",100,16,64,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",0,0,
 "current","General Purpose","M5","m5d.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",1,150,"nvme"
 "current","General Purpose","M5","m5d.xlarge",100,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",1,150,"nvme"
 "current","General Purpose","M5","m5d.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",10000,"nvme",4,900,"nvme"
 "current","General Purpose","M5","m5d.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"nvme",4,900,"nvme"
-"current","General Purpose","M5","m5.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",10000,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",0,0,"None"
-"current","General Purpose","M5","m5.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",0,0,"None"
+"current","General Purpose","M5","m5.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",10000,"nvme",0,0,
+"current","General Purpose","M5","m5.24xlarge",100,96,384,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"nvme",0,0,
+"current","General Purpose","M5","m5.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",0,0,
+"current","General Purpose","M5","m5.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",0,0,
 "current","General Purpose","M5","m5d.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"upto",2120,"nvme",1,300,"nvme"
 "current","General Purpose","M5","m5d.2xlarge",100,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"upto",2120,"nvme",1,300,"nvme"
 "current","General Purpose","M5","m5d.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",5000,"nvme",2,900,"nvme"
 "current","General Purpose","M5","m5d.12xlarge",100,48,192,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",5000,"nvme",2,900,"nvme"
-"current","Accelerated Computing","P2","p2.8xlarge",100,32,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",5000,"nvme",0,0,"None"
-"current","Accelerated Computing","P2","p2.8xlarge",100,32,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",5000,"nvme",0,0,"None"
-"current","Accelerated Computing","P2","p2.xlarge",100,4,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
-"current","Accelerated Computing","P2","p2.xlarge",100,4,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",750,"nvme",0,0,"None"
-"current","Accelerated Computing","P2","p2.16xlarge",100,64,732,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",10000,"nvme",0,0,"None"
-"current","Accelerated Computing","P2","p2.16xlarge",100,64,732,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1750,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",1750,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",7000,"nvme",0,0,"None"
-"current","Accelerated Computing","P3","p3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",7000,"nvme",0,0,"None"
-"current","Memory Optimized","R4","r4.6xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",7000,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.6xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",7000,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1700,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",1700,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.large",100,2,15.25,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"strict",425,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.large",100,2,15.25,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,3,10,"strict",425,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",3500,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",3500,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.xlarge",100,4,30.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",850,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.xlarge",100,4,30.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",850,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"xen",0,0,"None"
-"current","Memory Optimized","R4","r4.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"xen",0,0,"None"
-"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
-"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,"None"
+"current","Accelerated Computing","P2","p2.8xlarge",100,32,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",5000,"nvme",0,0,
+"current","Accelerated Computing","P2","p2.8xlarge",100,32,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",5000,"nvme",0,0,
+"current","Accelerated Computing","P2","p2.xlarge",100,4,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",750,"nvme",0,0,
+"current","Accelerated Computing","P2","p2.xlarge",100,4,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",750,"nvme",0,0,
+"current","Accelerated Computing","P2","p2.16xlarge",100,64,732,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",10000,"nvme",0,0,
+"current","Accelerated Computing","P2","p2.16xlarge",100,64,732,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-K80",2496,12,0,20,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",10000,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1750,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",1750,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",7000,"nvme",0,0,
+"current","Accelerated Computing","P3","p3.8xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,"NVIDIA-Tesla-V100",5120,16,640,30,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",7000,"nvme",0,0,
+"current","Memory Optimized","R4","r4.6xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",10000,8,30,"strict",7000,"xen",0,0,
+"current","Memory Optimized","R4","r4.6xlarge",100,32,244,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",10000,8,30,"strict",7000,"xen",0,0,
+"current","Memory Optimized","R4","r4.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1700,"xen",0,0,
+"current","Memory Optimized","R4","r4.2xlarge",100,8,61,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",1700,"xen",0,0,
+"current","Memory Optimized","R4","r4.large",100,2,15.25,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"strict",425,"xen",0,0,
+"current","Memory Optimized","R4","r4.large",100,2,15.25,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,3,10,"strict",425,"xen",0,0,
+"current","Memory Optimized","R4","r4.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,8,30,"strict",3500,"xen",0,0,
+"current","Memory Optimized","R4","r4.4xlarge",100,16,122,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,8,30,"strict",3500,"xen",0,0,
+"current","Memory Optimized","R4","r4.xlarge",100,4,30.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",850,"xen",0,0,
+"current","Memory Optimized","R4","r4.xlarge",100,4,30.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","upto",10000,4,15,"strict",850,"xen",0,0,
+"current","Memory Optimized","R4","r4.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,15,50,"strict",14000,"xen",0,0,
+"current","Memory Optimized","R4","r4.16xlarge",100,64,488,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"ena","Elastic Network Adapter (ENA)","strict",25000,15,50,"strict",14000,"xen",0,0,
+"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.xlarge",22,4,16,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.2xlarge",16,8,32,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",1000,3,15,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.medium",20,2,4,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,6,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.large",30,2,8,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,3,12,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.micro",10,1,1,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.small",20,1,2,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",100,2,4,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-Platinum","Skylake",3,,,120,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-Platinum-8175-2.5","Skylake",2.5,,,130,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2676-v3-2.4","Haswell",2.4,2.4,2.4,330,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2666-v3-2.9","Haswell",2.9,,,340,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
+"current","General Purpose","T2","t2.nano",5,1,0.5,"Intel-Xeon-E5-2686-v4-2.3","Broadwell",2.3,,,420,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10,2,2,"upto",50,"xen",0,0,
 "current","Memory Optimized","X1e","x1e.2xlarge",100,8,244,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,4,15,"strict",1000,"xen",1,240,"ssd"
 "current","Memory Optimized","X1e","x1e.32xlarge",100,128,3904,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","strict",25000,8,30,"strict",14000,"xen",2,1920,"ssd"
 "current","Memory Optimized","X1e","x1e.xlarge",100,4,122,"Intel-Xeon-E7-8880-v3-2.3","Haswell",2.3,,,320,,0,0,0,0,,0,0,0,0,"vif","XEN net","upto",10000,3,10,"strict",500,"xen",1,120,"ssd"
