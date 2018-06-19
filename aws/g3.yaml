@@ -17,6 +17,7 @@ defaults:
  - id: NVIDIA-Tesla-M60
  netMbps: 10000
  nbsMbsSla: strict
+ nbsInterface: nvme
 presetTypes:
  g3.4xlarge:  { cores: 16, ram: 122, gpu: 1, gram: 8,  nbsMbs: 3500,  nets: 8,  ipsPerNet: 30, netMbpsSla: upto}
  g3.8xlarge:  { cores: 32, ram: 244, gpu: 2, gram: 16, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }

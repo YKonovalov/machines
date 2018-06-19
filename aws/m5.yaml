@@ -9,6 +9,8 @@ workload:
 - id: enterprise applications
 generation: current
 defaults:
+ hypervisor:
+ - id: kvm
  cpuPlatform:
  - id: Intel-Xeon-Platinum-8175-2.5
  netPlatform:
@@ -18,6 +20,7 @@ defaults:
  netMbps: 10000
  nbsMbsSla: upto
  nbsMbs: 2120
+ nbsInterface: nvme
 presetTypes:
  m5.large:     { cores: 2,  ram: 8,   nets: 3,  ipsPerNet: 10 }
  m5.xlarge:    { cores: 4,  ram: 16,  nets: 4,  ipsPerNet: 15 }

@@ -22,6 +22,7 @@ defaults:
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: strict
+ nbsInterface: nvme
 presetTypes:
  p3.2xlarge:  { cores: 8,  ram: 61,  gpu: 1, gram: 16,                 nbsMbs: 1750,  nets: 4,  ipsPerNet: 15 }
  p3.8xlarge:  { cores: 32, ram: 244, gpu: 4, gram: 64,  glink: NVLink, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30 }

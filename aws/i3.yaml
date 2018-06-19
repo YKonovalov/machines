@@ -41,4 +41,4 @@ presetTypes:
  i3.4xlarge:  { cores: 16, ram: 122,   lbs: 2, lbsGb: 1900, nbsMbs: 3500,  nets: 8,  ipsPerNet: 30 }
  i3.8xlarge:  { cores: 32, ram: 244,   lbs: 4, lbsGb: 1900, nbsMbs: 7000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }
  i3.16xlarge: { cores: 64, ram: 488,   lbs: 8, lbsGb: 1900, nbsMbs: 14000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }
- i3.metal:    { cores: 72, ram: 512,   lbs: 8, lbsGb: 1900, nbsMbs: 10000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000 }
+ i3.metal:    { cores: 72, ram: 512,   lbs: 8, lbsGb: 1900, nbsMbs: 10000, nets: 15, ipsPerNet: 50, netMbpsSla: strict, netMbps: 25000, hypervisor: [ id: metal ] }

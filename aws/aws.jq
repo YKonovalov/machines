@@ -6,7 +6,7 @@
  "fpga_id", "fpga_ram", "fpga_elements", "fpga_dsp", "fpga_numericId",
  "net_id", "net_model",
  "netMbpsSla", "netMbps", "nets", "ipsPerNet",
- "nbsMbsSla", "nbsMbs",
+ "nbsMbsSla", "nbsMbs", "nbsInterface",
  "lbs", "lbsGb", "lbsType"
 ] as $h |
 ($h | @csv),

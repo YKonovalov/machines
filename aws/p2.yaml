@@ -20,6 +20,7 @@ defaults:
  - id: NVIDIA-K80
  netMbps: 10000
  nbsMbsSla: strict
+ nbsInterface: nvme
 presetTypes:
  p2.xlarge:   { cores: 4,  ram: 61,  gpu: 1,  gram: 12,  nbsMbs: 750,   nets: 4,  ipsPerNet: 15, netMbpsSla: upto}
  p2.8xlarge:  { cores: 32, ram: 488, gpu: 8,  gram: 96,  nbsMbs: 5000,  nets: 8,  ipsPerNet: 30, netMbpsSla: strict }

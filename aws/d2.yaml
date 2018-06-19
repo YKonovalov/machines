@@ -21,6 +21,7 @@ defaults:
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: strict
+ nbsInterface: nvme
  lbsType: hdd
  lbsGb: 2000
 presetTypes:

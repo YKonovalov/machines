@@ -18,6 +18,7 @@ defaults:
  netMbpsSla: upto
  netMbps: 10000
  nbsMbsSla: strict
+ nbsInterface: nvme
 presetTypes:
  m4.large:     { cores: 2,  ram: 8,   nets: 2, ipsPerNet: 10, nbsMbs: 450, netMbps: 1000 }
  m4.xlarge:    { cores: 4,  ram: 16,  nets: 4, ipsPerNet: 15, nbsMbs: 750, }
