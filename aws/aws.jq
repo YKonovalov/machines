@@ -1,6 +1,6 @@
 [
  "name", "type", "generation", "line", "workload_id",
- "arch_id", "hypervisor_id",
+ "arch_id", "hypervisor_id", "hypervisor_model",
  "share", "cores", "ram",
  "cpu_id", "cpu_codename", "cpu_Ghz", "cpu_turboGhz", "cpu_turboMaxGhz", "cpu_numericId",
  "gpu_id", "gpu_cores", "gpu_ram", "gpu_tensors", "gpu_numericId",
