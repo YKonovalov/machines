@@ -64,9 +64,9 @@ Dimensions:
     inf: 8
  ipsPerNet:
   level:
-   net:
+   cores:
     3:   10
-    7:   15
+    15:  15
     inf: 30
  netMbps:
   level:
