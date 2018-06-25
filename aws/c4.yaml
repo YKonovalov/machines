@@ -31,10 +31,10 @@ primaryDimensions:
   incBase: 2
   inc: 2
  ramPerCore:
-  min: 3.75
-  max: 3.75
-  incBase: 3.75
-  inc: 0
+  min: 1.6666666666
+  max: 1.875
+  incBase: 1.6666666666
+  inc: 0.2083333334
 
 Dimensions:
  cores:
