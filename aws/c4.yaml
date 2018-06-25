@@ -12,6 +12,7 @@ workload:
 - id: MMO gaming
 - id: video encoding
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
+
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2666-v3-2.9
@@ -22,6 +23,76 @@ defaults:
  netMbps: 1000
  nbsMbsSla: strict
  nbsInterface: nvme
+
+primaryDimensions:
+ cores:
+  min: 2
+  max: 36
+  incBase: 2
+  inc: 2
+ ramPerCore:
+  min: 3.75
+  max: 3.75
+  incBase: 3.75
+  inc: 0
+
+Dimensions:
+ cores:
+  assign: cores
+ ram:
+  multiply:
+  - cores
+  - ramPerCore
+ nbsMbs:
+  level:
+   cores:
+    4:   500
+    8:   750
+    16:  1000
+    36:  2000
+    inf: 4000
+ nbsMbsSla:
+  level:
+   cores:
+    35:  upto
+    inf: strict
+ nets:
+  level:
+   cores:
+    3:   3
+    15:  4
+    inf: 8
+ ipsPerNet:
+  level:
+   net:
+    3:   10
+    7:   15
+    inf: 30
+ netMbps:
+  level:
+   cores:
+    3:   100
+    15:  1000
+    inf: 10000
+ netMbpsSla:
+  level:
+   cores:
+    35:  upto
+    inf: strict
+
+Dimensions1:
+ share:      100
+ gpu:        0
+ fpga:       0
+ lbs:        0
+ lbsGb:      0
+ nbsMbs:     'lambda value: 500 if cores < 4 else 750 if cores < 8 else 1000 if cores < 16 else 2000 if cores < 36 else 4000'
+ nbsMbsSla:  'lambda value: "upto" if core < 36 else "strict"'
+ nets:       'lambda value: 3 if core < 4 else 4 if cores < 16 else 8'
+ ipsPerNet:  'lambda value: 10 if nets < 4 else 15 if nets < 8 else 30'
+ netMbps:    'lambda value: 500 if cores < 4 else 750 if cores < 8 else 1000 if cores < 16 else 2000 if cores < 36 else 4000'
+ netMbpsSla: 'lambda value: "upto" if core < 36 else "strict"'
+
 presetTypes:
  c4.large:     { cores: 2,  ram: 3.75, nbsMbs: 500,  nets: 3, ipsPerNet: 10, netMbps: 100 }
  c4.xlarge:    { cores: 4,  ram: 7.5,  nbsMbs: 750,  nets: 4, ipsPerNet: 15 }

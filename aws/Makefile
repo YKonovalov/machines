@@ -1,4 +1,4 @@
-all: aws.csv
+all: aws.csv aws-plus.csv
 .PHONY: clean
 
 aws.json:
@@ -14,7 +14,9 @@ global.json:
 
 aws.csv: global.json aws.json
 	jq -r --from-file aws.jq --slurpfile g global.json aws.json >aws.csv
-#	jq -r --slurpfile g global.json '.[]|.defaults.cpuPlatform|= (.[]|.id as $i| [. + ($g[].cpuModels[]|select(.id == $i))])' aws.json
+
+aws-plus.csv: global.json aws.json
+	jq -r --from-file aws-plus.jq --slurpfile g global.json aws.json >aws-plus.csv
 
 clean:
 	rm -f global.json aws.json aws.csv
