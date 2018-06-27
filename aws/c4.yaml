@@ -24,7 +24,7 @@ defaults:
  nbsMbsSla: strict
  nbsInterface: nvme
 
-primaryDimensions:
+customizators:
  cores:
   min: 2
   max: 36
@@ -36,7 +36,15 @@ primaryDimensions:
   incBase: 1.6666666666
   inc: 0.2083333334
 
-Dimensions:
+aria:
+ cores:
+  min: 2
+  max: 36
+ ram:
+  min: 3.75
+  max: 60
+
+dimensions:
  cores:
   assign: cores
  ram:
@@ -79,19 +87,6 @@ Dimensions:
    cores:
     35:  upto
     inf: strict
-
-Dimensions1:
- share:      100
- gpu:        0
- fpga:       0
- lbs:        0
- lbsGb:      0
- nbsMbs:     'lambda value: 500 if cores < 4 else 750 if cores < 8 else 1000 if cores < 16 else 2000 if cores < 36 else 4000'
- nbsMbsSla:  'lambda value: "upto" if core < 36 else "strict"'
- nets:       'lambda value: 3 if core < 4 else 4 if cores < 16 else 8'
- ipsPerNet:  'lambda value: 10 if nets < 4 else 15 if nets < 8 else 30'
- netMbps:    'lambda value: 500 if cores < 4 else 750 if cores < 8 else 1000 if cores < 16 else 2000 if cores < 36 else 4000'
- netMbpsSla: 'lambda value: "upto" if core < 36 else "strict"'
 
 presetTypes:
  c4.large:     { cores: 2,  ram: 3.75, nbsMbs: 500,  nets: 3, ipsPerNet: 10, netMbps: 100 }

@@ -1,5 +1,5 @@
 def typegenerator:
-  try .primaryDimensions catch empty
+  try .customizators catch empty
     | keys_unsorted as $primaryDimensions
     | [(to_entries[]|.value|[.min,.max]+[range(.incBase;.max;.inc)]|unique)]
     | combinations as $row
@@ -40,11 +40,20 @@ def presetTypes(global; defaults; categories):
   | global[].defaults+defaults+.+categories+(.type=$t);
 
 def customTypes(global; defaults; categories):
-  .Dimensions as $d
+  .dimensions as $d
   | typegenerator as $in
   | $d
   | with_entries(.value|=(calcq($in)))
   | global[].defaults+defaults+.+categories+(.type="");
+
+def filterArea(area):
+  if area then
+    . as $in
+    | select( all(area|to_entries[];
+              $in[.key]<=.value.max
+               and
+              $in[.key]>=.value.min) )
+  else . end;
 
 [
  "name", "type", "generation", "line", "workload_id",
@@ -62,8 +71,10 @@ def customTypes(global; defaults; categories):
  (
   .[]|.defaults as $d |
   {name,line,generation,workload} as $n |
+  .aria as $a |
 
   presetTypes($g;$d;$n), customTypes($g;$d;$n)
+   | filterArea($a)
    | (.arch[]|.id as $ai| . + ($g[].archModels[]|select(.id == $ai))|with_entries(.key |= "arch_" + .)) as $arch
    | (.hypervisor[]|.id as $hi| . + ($g[].hypervisorModels[]|select(.id == $hi))|with_entries(.key |= "hypervisor_" + .)) as $hypervisor
    | (.cpuPlatform[]|.id as $ci| . + ($g[].cpuModels[]|select(.id == $ci))|with_entries(.key |= "cpu_" + .)) as $cpu
