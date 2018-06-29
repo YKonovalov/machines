@@ -8,6 +8,7 @@ def typegenerator:
 
 def assignq(input):   input[.value];
 def multiplyq(input): reduce .value[] as $i (1; . * input[$i]);
+def divideq(input): .value[0] as $f|reduce .value[1:][] as $i (input[$f]; . / input[$i]);
 
 def levelq(input):
  .value|to_entries[]
@@ -27,6 +28,8 @@ def calcq(input):
          assignq(input)
        elif .key == "multiply" then
          multiplyq(input)
+       elif .key == "divide" then
+         divideq(input)
        elif .key == "level" then
          levelq(input)
        else $in end

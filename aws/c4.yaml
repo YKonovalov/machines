@@ -31,10 +31,14 @@ customizators:
   incBase: 2
   inc: 2
  ramPerCore:
-  min: 1.6666666666
-  max: 1.875
-  incBase: 1.6666666666
-  inc: 0.2083333334
+  min: 3
+  max: 5
+#  min: 1.6666666666
+#  max: 1.875
+#  incBase: 1.6666666666
+#  inc: 0.2083333334
+  incBase: 3
+  inc: 0.125
 
 aria:
  cores:

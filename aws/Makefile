@@ -19,4 +19,4 @@ aws-plus.csv: global.json aws.json
 	jq -r --from-file aws-plus.jq --slurpfile g global.json aws.json >aws-plus.csv
 
 clean:
-	rm -f global.json aws.json aws.csv
+	rm -f global.json aws.json aws.csv aws-plus.csv

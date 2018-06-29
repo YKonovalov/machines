@@ -1,5 +1,6 @@
 name: T2
 line: General Purpose
+generation: current
 workload:
 - id: websites
 - id: web applications
@@ -9,7 +10,6 @@ workload:
 - id: micro services
 - id: test and staging environments
 - id: line of business applications
-generation: current
 bursting: true
 comments: "netMbps mapped as follows: [low:10, lowToMed:100, medium:1000]"
 defaults:

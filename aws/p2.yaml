@@ -1,5 +1,6 @@
 name: P2
 line: Accelerated Computing
+generation: current
 workload:
 - id: machine learning
 - id: high performance databases
@@ -9,7 +10,6 @@ workload:
 - id: molecular modeling
 - id: genomics
 - id: rendering
-generation: current
 defaults:
  cpuPlatform:
  - id: Intel-Xeon-E5-2686-v4-2.3

@@ -5,7 +5,7 @@ defaults:
  hypervisor:
  - id: hvm
  cpuPlatform:
- - id: Intel-Xeon-Platinum
+ - id: Intel-Xeon-Platinum-3.0
  - id: Intel-Xeon-Platinum-8175-2.5
  - id: Intel-Xeon-E7-8880-v3-2.3
  - id: Intel-Xeon-E5-2676-v3-2.4
@@ -56,7 +56,7 @@ cpuModels:
   turboGhz: 3.0
   turboMaxGhz: 3.0
   codename: Skylake
-  id: Intel-Xeon-Platinum
+  id: Intel-Xeon-Platinum-3.0
   numericId: 120
 - model: "Intel Xeon® Platinum 8175"
   Ghz: 2.5

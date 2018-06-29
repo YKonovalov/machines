@@ -25,6 +25,97 @@ defaults:
  nbsMbsSla: upto
  nbsMbs: 2250
  nbsInterface: nvme
+
+customizators:
+ cores:
+  min: 2
+  max: 72
+  incBase: 2
+  inc: 2
+ ram:
+  min: 4
+  max: 144
+  incBase: 4
+  inc: 2
+ lbs:
+  min: 0
+  max: 1
+  incBase: 0
+  inc: 1
+
+aria:
+ cores:
+  min: 2
+  max: 72
+ ram:
+  min: 4
+  max: 144
+ ramPerCore:
+  min: 1
+  max: 7
+
+dimensions:
+ cores:
+  assign: cores
+ ram:
+  assign: ram
+ ramPerCore:
+  divide:
+  - ram
+  - cores
+ nbsMbs:
+  level:
+   cores:
+    35:  2250
+    71:  4500
+    inf: 9000
+ nbsMbsSla:
+  level:
+   cores:
+    15:  upto
+    inf: strict
+ nets:
+  level:
+   cores:
+    3:   3
+    15:  4
+    71:  8
+    inf: 15
+ ipsPerNet:
+  level:
+   cores:
+    3:   10
+    15:  15
+    71:  30
+    inf: 50
+ netMbps:
+  level:
+   cores:
+    71:  10000
+    inf: 25000
+ netMbpsSla:
+  level:
+   cores:
+    15:  upto
+    inf: strict
+ lbs:
+  level:
+   cores:
+    71:  1
+    inf: 2
+ lbsGb:
+  level:
+   cores:
+    3:   50
+    7:   100
+    15:  200
+    35:  400
+    inf: 900
+ lbsType:
+  level:
+   lbs:
+    0:
+    inf: nvme
 presetTypes:
  c5.large:     { cores: 2,  ram: 4,   nets: 3,  ipsPerNet: 10 }
  c5.xlarge:    { cores: 4,  ram: 8,   nets: 4,  ipsPerNet: 15 }
@@ -36,5 +127,5 @@ presetTypes:
  c5d.xlarge:   { cores: 4,  ram: 8,   nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 100, lbsType: nvme }
  c5d.2xlarge:  { cores: 8,  ram: 16,  nets: 4,  ipsPerNet: 15, lbs: 1, lbsGb: 200, lbsType: nvme }
  c5d.4xlarge:  { cores: 16, ram: 32,  nets: 8,  ipsPerNet: 30, lbs: 1, lbsGb: 400, lbsType: nvme, nbsMbsSla: strict }
- c5d.9xlarge:  { cores: 32, ram: 72,  nets: 8,  ipsPerNet: 30, lbs: 1, lbsGb: 900, lbsType: nvme, nbsMbs: 4500, nbsMbsSla: strict, netMbpsSla: strict }
+ c5d.9xlarge:  { cores: 36, ram: 72,  nets: 8,  ipsPerNet: 30, lbs: 1, lbsGb: 900, lbsType: nvme, nbsMbs: 4500, nbsMbsSla: strict, netMbpsSla: strict }
  c5d.18xlarge: { cores: 72, ram: 144, nets: 15, ipsPerNet: 50, lbs: 2, lbsGb: 900, lbsType: nvme, nbsMbs: 9000, nbsMbsSla: strict, netMbps: 25000, netMbpsSla: strict }
